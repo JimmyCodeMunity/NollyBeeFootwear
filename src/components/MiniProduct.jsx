@@ -31,12 +31,12 @@ const MiniProduct = () => {
                 </div>
               </div>
               <h4 class="mt-2 font-semibold text-lg leading-tight truncate">
-                Beautiful Home in the countryside
+                {shoe.name}
               </h4>
 
               <div class="mt-1">
-                <span>$1,900.00</span>
-                <span class="text-gray-600 text-sm">/ wk</span>
+                <span>kshs.{shoe.price}</span>
+                <span class="text-gray-600 text-sm"></span>
               </div>
               <div class="mt-2 flex items-center">
                 <div class="text-teal-600 font-semibold">
